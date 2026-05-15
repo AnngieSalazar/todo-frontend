@@ -1,5 +1,6 @@
 // Aún no lo enlazaremos en la nube, experimentaremos una falla común apuntando erróneamente de forma externa
-const API_URL = 'https://todo-backend-abc.onrender.com/api/todos';
+// Reemplazamos la ruta estática temporal fallida por la definitiva
+const API_URL = 'https://todo-backend-abc.onrender.com/api/todos'; // URL de nuestra API pública en la nube
 
 let currentTodos = [];
 let selectedId = null;
